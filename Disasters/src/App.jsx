@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter , Route, Routes } from 'react-router-dom'
 import Navbar from './ShareComponents/Navbar'
 import Dashboard from './components/Dashboard'
+import { MobileMenu } from './ShareComponents/MobileMenu'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         
       </Routes>
      </BrowserRouter>
+    
     </main>
   )
 }

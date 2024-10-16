@@ -12,12 +12,12 @@ export default {
         orange:"#F26922",
         accent:"#E4E4E7",
         bgColor:"#FAFAFA",
-        card:"#F4F4F5",
-        cardIcon:"#FB923C",
+           
       },
       backgroundImage:{
-        "bgColorNav":"#E4E4E780",
-        
+        "bgColor":"rgba(228, 228, 231, 0.5)",
+
+       
       },
       fontFamily:{
         "Onest":[ "Onest", "sans-serif"],
