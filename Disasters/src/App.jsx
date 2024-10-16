@@ -9,9 +9,10 @@ function App() {
     <main className='font-Onest'>
      <BrowserRouter>
       <Routes>
-        <Route path='' element={<Navbar/>}>
+        <Route path='' element={<Navbar/>}/>
+        <Route path='/Dashboard' element={<Dashboard/>}/>
         
-        </Route>
+       
         
       </Routes>
      </BrowserRouter>

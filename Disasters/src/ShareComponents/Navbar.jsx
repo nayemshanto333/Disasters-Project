@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { Badge } from "../ShareComponents/Badge";
 import { NavLink } from "react-router-dom";
-import { cn } from "../lib/utils/cn";
+import Dashboard from "../components/Dashboard";
+
 
 const Navbar = () => {
-  const [active, setActive] = useState(0);
+  // const [active, setActive] = useState(0);
   return (
     <>
       <nav>
         <div className="bg-accent h-[191px] px-[85.5px] py-[23px]">
           <div className="flex justify-between items-center  border border-b-[#3f3f46] pb-[15px]">
-            <NavLink to="/">
+            <NavLink to="/Dashboard">
               <img src="img/logo.png" alt="Disasters" />
             </NavLink>
 
@@ -18,7 +19,7 @@ const Navbar = () => {
 
             <div>
               <ul className="flex [&>li]:pl-[35px] text-sm text-secondary cursor-pointer ">
-                <li className="hover:text-primary font-bold">Dashboard</li>
+              <li> <NavLink to='/Dashboard' >Dashboard</NavLink> </li>
                 <li className="hover:text-primary font-bold">Incidents</li>
                 <li className="hover:text-primary font-bold">Locations</li>
                 <li className="hover:text-primary font-bold">Activities</li>
