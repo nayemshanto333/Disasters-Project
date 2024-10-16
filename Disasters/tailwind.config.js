@@ -17,10 +17,15 @@ export default {
       },
       backgroundImage:{
         "bgColorNav":"#E4E4E780",
+        
       },
       fontFamily:{
         "Onest":[ "Onest", "sans-serif"],
       },
+      
+      boxShadow:{
+        'Icon':" 0px 4px 48px 0px rgba(0, 0, 0, 0.2)",
+      }
     },
   },
   plugins: [],
