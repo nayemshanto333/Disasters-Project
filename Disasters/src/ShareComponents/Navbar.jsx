@@ -20,7 +20,7 @@ const Navbar = () => {
     <>
       <nav className="bg-accent h-[91px]  pt-[23px]">
         <Container>
-          <div className=" flex justify-between items-center  border border-b-secondary pb-[15px]">
+          <div className=" flex justify-between items-center   border border-b-secondary pb-[15px]">
             <div className="flex justify-between items-center">
               <NavLink to="/Dashboard">
                 <img src="img/logo.png" alt="Disasters" className="me-0" />
@@ -30,7 +30,7 @@ const Navbar = () => {
             {/* link section */}
 
             <div>
-              <ul className="hidden lg:flex [&>li]:pl-[35px] text-sm text-secondary cursor-pointer ">
+              <ul className="hidden lg:flex lg:gap-[30px] xl:gap-[35px] text-sm text-secondary cursor-pointer ">
                 <li className="hover:text-primary font-bold">
                   {" "}
                   <NavLink to="/Dashboard">Dashboard</NavLink>{" "}
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink >Locations</NavLink>{" "}
+                  <NavLink to="/Locations" >Locations</NavLink>{" "}
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
