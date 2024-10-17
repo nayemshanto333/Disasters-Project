@@ -10,12 +10,12 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => setIsMenuOpen((perv) => !perv);
 
-  useEffect (()=>{
+  useEffect(() => {
     const bodyClass = document.body.classList;
-    isMenuOpen ? bodyClass.add("no-scroll") : bodyClass.remove("no-scroll")
+    isMenuOpen ? bodyClass.add("no-scroll") : bodyClass.remove("no-scroll");
 
-    return ()=> bodyClass.remove("no-scroll");
-  },[isMenuOpen])
+    return () => bodyClass.remove("no-scroll");
+  }, [isMenuOpen]);
   return (
     <>
       <nav className="bg-accent h-[91px]  pt-[23px]">
@@ -39,11 +39,22 @@ const Navbar = () => {
                   {" "}
                   <NavLink to="/Incidents">Incidents</NavLink>{" "}
                 </li>
-                
-                <li className="hover:text-primary font-bold">Locations</li>
-                <li className="hover:text-primary font-bold">Activities</li>
-                <li className="hover:text-primary font-bold">Documents</li>
-                <li className="hover:text-primary font-bold">Cypher AI</li>
+                <li className="hover:text-primary font-bold">
+                  {" "}
+                  <NavLink >Locations</NavLink>{" "}
+                </li>
+                <li className="hover:text-primary font-bold">
+                  {" "}
+                  <NavLink >Activities</NavLink>{" "}
+                </li>
+                <li className="hover:text-primary font-bold">
+                  {" "}
+                  <NavLink >Documents</NavLink>{" "}
+                </li>
+                <li className="hover:text-primary font-bold">
+                  {" "}
+                  <NavLink >Cypher AI</NavLink>{" "}
+                </li>
               </ul>
             </div>
 
@@ -67,7 +78,7 @@ const Navbar = () => {
 
             {/* toggle menu */}
             <div className="flex  gap-4 z-50">
-              <button className="block lg:hidden"> 
+              <button className="block lg:hidden">
                 <img src="img/profileIcon.png" alt="profile" />
               </button>
               <button className="lg:hidden block me-2" onClick={toggleMenu}>
