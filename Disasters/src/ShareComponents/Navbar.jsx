@@ -35,7 +35,11 @@ const Navbar = () => {
                   {" "}
                   <NavLink to="/Dashboard">Dashboard</NavLink>{" "}
                 </li>
-                <li className="hover:text-primary font-bold">Incidents</li>
+                <li className="hover:text-primary font-bold">
+                  {" "}
+                  <NavLink to="/Incidents">Incidents</NavLink>{" "}
+                </li>
+                
                 <li className="hover:text-primary font-bold">Locations</li>
                 <li className="hover:text-primary font-bold">Activities</li>
                 <li className="hover:text-primary font-bold">Documents</li>
@@ -62,7 +66,7 @@ const Navbar = () => {
             </div>
 
             {/* toggle menu */}
-            <div className="flex  gap-4">
+            <div className="flex  gap-4 z-50">
               <button className="block lg:hidden"> 
                 <img src="img/profileIcon.png" alt="profile" />
               </button>
