@@ -18,9 +18,9 @@ const Navbar = () => {
   }, [isMenuOpen]);
   return (
     <>
-      <nav className="bg-accent h-[91px]  pt-[23px]">
+      <nav className="bg-accent/50 h-[91px]  pt-[23px]">
         <Container>
-          <div className=" flex justify-between items-center   border border-b-secondary pb-[15px]">
+          <div className=" flex justify-between items-center pb-[15px]">
             <div className="flex justify-between items-center">
               <NavLink to="/Dashboard">
                 <img src="img/logo.png" alt="Disasters" className="me-0" />
@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
 
             {/* toggle menu */}
-            <div className="flex  gap-4 z-50">
+            <div className="flex lg:hidden gap-4 z-50">
               <button className="block lg:hidden">
                 <img src="img/profileIcon.png" alt="profile" />
               </button>
@@ -92,6 +92,7 @@ const Navbar = () => {
           </div>
           {isMenuOpen && <MobileMenu toggleMenu={toggleMenu} />}
         </Container>
+        <div className=" border border-b-accent"></div>
       </nav>
     </>
   );

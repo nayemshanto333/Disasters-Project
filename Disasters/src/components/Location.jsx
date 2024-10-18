@@ -22,10 +22,10 @@ export const Location = () => {
     <section>
       <Navbar />
 
-      <div className="bg-accent h-[100px] py-[23px]  ">
+      <div className="bg-accent/50 lg:h-[100px] py-3 lg:py-[23px]  ">
         <Container>
-          <div className="flex justify-between items-center">
-            <div>
+          <div className="flex flex-col lg:flex-row space-y-3 justify-between items-center">
+            <div className="flex flex-col justify-start">
               <BreadCrumbs>
                 Incidents - DR-4699 March 2023 Severe Storms{" "}
               </BreadCrumbs>
@@ -34,9 +34,9 @@ export const Location = () => {
                 DR-4699 March 2023 Severe Storms
               </PageHeading>
             </div>
-            <div className="flex gap-[14px]">
+            <div className="flex flex-col md:flex-row  items-center gap-[14px]">
               <SearchBar />
-              <Button className="flex flex-row justify-center items-center gap-1 w-[148px]">
+              <Button className="flex  justify-center items-center gap-1 w-[148px]">
                 <span className="text-lg">+</span> New Incident
               </Button>
             </div>
@@ -46,7 +46,7 @@ export const Location = () => {
       <Container>
         <div className="flex flex-col lg:flex-row justify-between md:gap-10 lg:gap-14 xl:gap-[94px]  mt-10">
           <div className="max-w-[680px]">
-            {/* locatio Price */}
+            {/* location Price */}
             <div className="space-y-[45px]">
               {locationData.map((props, i) => (
                 <LocationPrice key={i} {...props} />
@@ -102,7 +102,7 @@ export const Location = () => {
               Incident Map
             </p>
             <img
-              className="py-5 w-[526px] h-[503px]"
+              className="py-5 sm:w-[526px] sm:h-[503px]"
               src="img/locationMap.png"
               alt="map"
             />

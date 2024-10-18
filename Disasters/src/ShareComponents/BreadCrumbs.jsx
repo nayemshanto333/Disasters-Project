@@ -3,7 +3,7 @@ import { cn } from "../lib/utils/cn";
 
 export const BreadCrumbs = ({children , className}) => {
   return (
-    <p className={cn("text-secondary text-xs leading-[15.3px] mb-[6px]", className)}>
+    <p className={cn("text-secondary text-[10px] lg:text-xs leading-[15.3px] mb-[6px]", className)}>
       {children}
     </p>
   );

@@ -22,6 +22,8 @@ const Dashboard = () => {
           <img src="img/C.png" alt="close" />
         </button>
       </Container>
+      
+
     </section>
   );
 };

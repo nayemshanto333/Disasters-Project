@@ -14,7 +14,7 @@ export const Incidents = () => {
   return (
     <section>
       <Navbar />
-      <div className="bg-accent h-[100px] py-[23px]  ">
+      <div className="bg-accent/50 h-[100px] py-[23px]  ">
         <Container>
           <div className="flex justify-between items-center">
             <div>

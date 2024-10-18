@@ -8,7 +8,7 @@ export const LocationPrice = ({img, subtitle, title}) => {
       </div>
       <div>
         <p className="text-sm text-[#6B7280] leading-[22px]">{subtitle}</p>
-        <h3 className="text-xl text-[#09090B] leading-[29px] font-bold">
+        <h3 className="text-base sm:text-xl text-[#09090B] leading-[29px] font-bold">
           {title}
         </h3>
       </div>

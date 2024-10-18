@@ -7,7 +7,7 @@ import { SearchBar } from "./SearchBar";
 
 export const SearchButton = ({}) => {
   return (
-    <section className="bg-accent h-[100px] py-[23px] -z-10 ">
+    <section className="bg-accent/50 h-[100px] py-[23px] -z-10 ">
       <Container>
         <div className="flex justify-between items-center">
           <div>
