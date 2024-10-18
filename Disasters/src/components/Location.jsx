@@ -45,7 +45,7 @@ export const Location = () => {
       </div>
       <Container>
         <div className="flex flex-col lg:flex-row justify-between md:gap-10 lg:gap-14 xl:gap-[94px]  mt-10">
-          <div className="max-w-[680px]">
+          <div className=" lg:max-w-[680px]">
             {/* location Price */}
             <div className="space-y-[45px]">
               {locationData.map((props, i) => (

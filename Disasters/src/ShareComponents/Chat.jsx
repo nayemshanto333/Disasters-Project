@@ -3,7 +3,7 @@ import React from "react";
 export const Chat = ({ toggleMenu }) => {
   return (
     <>
-      <div className="absolute  h-[475px] w-[331px] rounded-[12px] bg-[#F4F4F5] transform bottom-[96px] xl:bottom-[211px]  right-4 md:right-16 lg:right-20 xl:right-[70px]">
+      <div className="fixed   h-[475px] w-[331px] rounded-[12px] bg-[#F4F4F5] transform bottom-[96px] xl:bottom-[211px]  right-4 md:right-16 lg:right-20 xl:right-[70px]">
         <div className="bg-orange h-[63px] w-[331px] flex items-center pl-[15px] rounded-t-xl">
           <p className="text-[#fafafa] text-lg font-bold leading-[22.95px] ">
             Chat with Cypher
@@ -43,7 +43,7 @@ export const Chat = ({ toggleMenu }) => {
       </div>
       <button
         onClick={toggleMenu}
-        className="absolute bg-[#FAFAFA] size-14 lg:size-[77px]  rounded-full shadow-Icon flex justify-center items-center transfrom bottom-6 xl:bottom-[117px] right-4 md:right-16 lg:right-20 xl:right-[70px]"
+        className="fixed bg-[#FAFAFA] size-14 lg:size-[77px]  rounded-full shadow-Icon flex justify-center items-center transfrom bottom-6 xl:bottom-[117px] right-4 md:right-16 lg:right-20 xl:right-[70px]"
       >
         <img src="img/close.png" alt="close" />
       </button>

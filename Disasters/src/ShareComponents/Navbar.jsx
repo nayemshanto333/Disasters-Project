@@ -28,32 +28,54 @@ const Navbar = () => {
             </div>
 
             {/* link section */}
-
+            {/* className={({ isActive }) =>
+              isActive ? 'text-white font-bold' : 'text-gray-400 hover:text-white' */}
             <div>
               <ul className="hidden lg:flex lg:gap-[30px] xl:gap-[35px] text-sm text-secondary cursor-pointer ">
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink to="/Dashboard">Dashboard</NavLink>{" "}
+                  <NavLink
+                    to="/Dashboard"
+                    className={({ isActive }) =>
+                      isActive ? "text-primary font-bold " : "text-secondary "
+                    }
+                  >
+                    Dashboard
+                  </NavLink>{" "}
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink to="/Incidents">Incidents</NavLink>{" "}
+                  <NavLink
+                    to="/Incidents"
+                    className={({ isActive }) =>
+                      isActive ? "text-primary font-bold " : "text-secondary "
+                    }
+                  >
+                    Incidents
+                  </NavLink>{" "}
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink to="/Locations" >Locations</NavLink>{" "}
+                  <NavLink
+                    to="/Locations"
+                    className={({ isActive }) =>
+                      isActive ? "text-primary font-bold " : "text-secondary "
+                    }
+                  >
+                    Locations
+                  </NavLink>{" "}
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink >Activities</NavLink>{" "}
+                  <NavLink>Activities</NavLink>{" "}
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink >Documents</NavLink>{" "}
+                  <NavLink>Documents</NavLink>{" "}
                 </li>
                 <li className="hover:text-primary font-bold">
                   {" "}
-                  <NavLink >Cypher AI</NavLink>{" "}
+                  <NavLink>Cypher AI</NavLink>{" "}
                 </li>
               </ul>
             </div>

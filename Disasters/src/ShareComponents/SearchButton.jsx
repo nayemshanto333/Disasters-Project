@@ -7,14 +7,14 @@ import { SearchBar } from "./SearchBar";
 
 export const SearchButton = ({}) => {
   return (
-    <section className="bg-accent/50 h-[100px] py-[23px] -z-10 ">
+    <section className="bg-accent/50 lg:h-[100px] py-3 lg:py-[23px] ">
       <Container>
-        <div className="flex justify-between items-center">
-          <div>
+        <div className="flex flex-col lg:flex-row space-y-3 justify-between items-center">
+          <div className="flex flex-col items-start">
             <BreadCrumbs>Welcome back</BreadCrumbs>
             <PageHeading>Dashboard</PageHeading>
           </div>
-          <div className="flex gap-[14px]">
+          <div className="flex flex-col md:flex-row  items-center gap-[14px]">
             <SearchBar />
             <Button>Cypher AI</Button>
           </div>
