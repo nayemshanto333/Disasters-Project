@@ -8,7 +8,7 @@ export const MobileMenu = ({ toggleMenu }) => {
         <img src="img/logo.png" alt="Disasters" />
         <button
           onClick={toggleMenu}
-          className=" bg-[#FAFAFA] size-14 rounded-full shadow-Icon flex justify-center items-center transfrom top-3  right-3"
+          className="  size-14 rounded-full  flex justify-center items-center transfrom top-3  right-3"
         >
           <img src="img/close.png" alt="close" />
         </button>

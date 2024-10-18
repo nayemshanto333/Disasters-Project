@@ -100,3 +100,21 @@ export const ActivityCardData = [
         price:"$1,456,654.00",
     },
 ]
+
+export const getData = [
+    {
+        img:"img/Fan.png",
+        title:"What type of incident?",
+        details:"Choose the category that best describes the incident.",
+    },
+    {
+        img:"img/important.png",
+        title:"Tell us about the incident?",
+        details:"Let’s connect the dots and see where to start.",
+    },
+    {
+        img:"img/location2.png",
+        title:"Where did the incident occur?",
+        details:"Lorem ipsum dolar sit general sac mascho werho",
+    },
+]

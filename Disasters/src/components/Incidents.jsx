@@ -7,30 +7,36 @@ import { SearchBar } from "../ShareComponents/SearchBar";
 import { Button } from "../ShareComponents/Button";
 import Navbar from "../ShareComponents/Navbar";
 import { AllCards } from "../ShareComponents/AllCards";
-
-
+import { Link } from "react-router-dom";
 
 export const Incidents = () => {
   return (
     <section>
       <Navbar />
-      <div className="bg-accent/50 h-[100px] py-[23px]  ">
+      <div className="bg-accent/50 lg:h-[100px] py-3 lg:py-[23px]">
         <Container>
-          <div className="flex justify-between items-center">
-            <div>
+          <div className="flex flex-col justify-between items-center lg:flex-row space-y-3">
+            <div className="flex flex-col justify-start">
               <BreadCrumbs>Home - Incidents</BreadCrumbs>
-              <PageHeading>Incidents</PageHeading>
+              <PageHeading className="flex justify-center  gap-[15px]">
+                Incidents
+              </PageHeading>
             </div>
-            <div className="flex gap-[14px]">
+            <div className="flex flex-col md:flex-row  items-center gap-[14px]">
               <SearchBar />
-              <Button className="flex flex-row justify-center items-center gap-1 w-[148px]">
-                <span className="text-lg">+</span> New Incident
+              <Button className=" w-[148px]">
+                <Link to="/get-start" className="flex justify-center items-center gap-[5px]">
+                  {" "}
+                  <span className="text-2xl">+</span> New Incident
+                </Link>
               </Button>
             </div>
           </div>
-          <AllCards className="pt-16" />
         </Container>
       </div>
+      <Container>
+        <AllCards className="pt-16" />
+      </Container>
     </section>
   );
 };
