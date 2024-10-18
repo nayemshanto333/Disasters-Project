@@ -118,3 +118,24 @@ export const getData = [
         details:"Lorem ipsum dolar sit general sac mascho werho",
     },
 ]
+
+export const describesIconData = [
+    {icon:"img/icon1.png", name:"Avalanche"},
+    {icon:"img/icon2.png", name:"Biological"},
+    {icon:"img/icon3.png", name:"Blizzard"},
+    {icon:"img/icon4.png", name:"Cold/Freezing"},
+    {icon:"img/icon5.png", name:"Drought"},
+    {icon:"img/icon6.png", name:"Earthquake"},
+    {icon:"img/icon7.png", name:"Flooding"},
+    {icon:"img/icon8.png", name:"Heat Wave"},
+    {icon:"img/icon9.png", name:"Hail"},
+    {icon:"img/icon10.png", name:"Lightning"},
+    {icon:"img/icon11.png", name:"Man Made"},
+    {icon:"img/icon12.png", name:"Mudslide"},
+    {icon:"img/icon13.png", name:"Severe Storm"},
+    {icon:"img/icon13.png", name:"Strong Wind"},
+    {icon:"img/icon15.png", name:"Tornado"},
+    {icon:"img/icon16.png", name:"Tsunami"},
+    {icon:"img/icon17.png", name:"Volcanic Eruption"},
+    {icon:"img/icon18.png", name:"Wildfire"},
+]
