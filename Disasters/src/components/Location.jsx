@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "../ShareComponents/Container";
-import Navbar from "../ShareComponents/Navbar";
 import { BreadCrumbs } from "../ShareComponents/BreadCrumbs";
 import { PageHeading } from "../ShareComponents/PageHeading";
 import { SearchBar } from "../ShareComponents/SearchBar";
@@ -20,7 +19,7 @@ import { Link } from "react-router-dom";
 export const Location = () => {
   return (
     <section>
-      <Navbar />
+      
 
       <div className="bg-accent/50 lg:h-[100px] py-3 lg:py-[23px]  ">
         <Container>

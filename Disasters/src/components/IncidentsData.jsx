@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../ShareComponents/Navbar';
 import { Button } from '../ShareComponents/Button';
 import { BreadCrumbs } from '../ShareComponents/BreadCrumbs';
 import { PageHeading } from '../ShareComponents/PageHeading';
@@ -9,7 +8,7 @@ import { Link } from 'react-router-dom';
 const IncidentsData = () => {
   return (
     <section>
-        <Navbar />
+        
       <div className="bg-accent/50 xl:h-[100px] py-3 lg:py-[23px]">
         <Container>
           <div className="flex flex-col justify-between items-center xl:flex-row space-y-3">

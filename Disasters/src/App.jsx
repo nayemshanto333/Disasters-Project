@@ -15,8 +15,9 @@ function App() {
   return (
     <main className='font-Onest'>
      <BrowserRouter>
+     <Navbar/>
       <Routes>
-        <Route path='' element={<Navbar/>}/>
+        <Route path='/' element={<Dashboard/>}></Route>
         <Route path='/Dashboard' element={<Dashboard/>}/>
         <Route path='/Incidents' element={<Incidents/>}/>
         <Route path='/get-start' element={<GetStart/>}/>

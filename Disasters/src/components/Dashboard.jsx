@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Navbar from "../ShareComponents/Navbar";
 import { Chat } from "../ShareComponents/Chat";
 import { Container } from "../ShareComponents/Container";
 import { SearchButton } from "../ShareComponents/SearchButton.jsx";
@@ -10,7 +9,7 @@ const Dashboard = () => {
   const toggleMenu = () => setIsMenuOpen((perv) => !perv);
   return (
     <section>
-      <Navbar />
+     
       <SearchButton />
       <Container>
         <AllCards />

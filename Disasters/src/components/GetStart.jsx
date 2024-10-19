@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../ShareComponents/Navbar";
 import { Container } from "../ShareComponents/Container";
 import { Button } from "../ShareComponents/Button";
 import { getData } from "../lib/db/Data";
@@ -9,7 +8,7 @@ import { Link } from "react-router-dom";
 export const GetStart = () => {
   return (
     <section>
-      <Navbar />
+      
       <Container>
         <div className="max-w-[815px] flex flex-col items-center mx-auto py-[85px]">
           <h1 className="text-primary font-bold text-[28px] md:text-[32px] leading-[40.8px]">
