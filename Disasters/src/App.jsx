@@ -7,6 +7,7 @@ import { GetStart } from './components/GetStart'
 import { Location } from './components/Location'
 import Describes from './components/Describes'
 import IncidentsData from './components/IncidentsData'
+import FinishPage from './components/FinishPage'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/get-start' element={<GetStart/>}/>
         <Route path='/describes' element={<Describes/>}/>
         <Route path='/incidentsData' element={<IncidentsData/>}/>
+        <Route path='/finished' element={<FinishPage/>}/>
         <Route path='/Locations' element={<Location/>}/>
         
         

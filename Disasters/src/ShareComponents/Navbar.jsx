@@ -100,6 +100,7 @@ const Navbar = () => {
 
             {/* toggle menu */}
             <div className="flex lg:hidden gap-4 z-50">
+              <Badge />
               <button className="block lg:hidden">
                 <img src="img/profileIcon.png" alt="profile" />
               </button>

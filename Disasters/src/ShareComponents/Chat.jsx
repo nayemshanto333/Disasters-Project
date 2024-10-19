@@ -3,7 +3,7 @@ import React from "react";
 export const Chat = ({ toggleMenu }) => {
   return (
     <>
-      <div className="fixed   h-[475px] w-[331px] rounded-[12px] bg-[#F4F4F5] transform bottom-[96px] xl:bottom-[211px]  right-4 md:right-16 lg:right-20 xl:right-[70px]">
+      <div className="fixed shadow-Icon  h-[475px] w-[331px] rounded-[12px] bg-[#F4F4F5] transform bottom-[96px] xl:bottom-[211px]  right-4 md:right-16 lg:right-20 xl:right-[70px]">
         <div className="bg-orange h-[63px] w-[331px] flex items-center pl-[15px] rounded-t-xl">
           <p className="text-[#fafafa] text-lg font-bold leading-[22.95px] ">
             Chat with Cypher

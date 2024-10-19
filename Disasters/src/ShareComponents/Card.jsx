@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = ({ img, title, location, price }) => {
   return (
-    <div className=" rounded-[10px] mb-5  relative">
+    <div className=" rounded-[10px] mb-5  hover:scale-105 transition-all duration-150  relative">
       <div>
         <img className="w-full h-[253px]" src={img} alt={title} />
       </div>

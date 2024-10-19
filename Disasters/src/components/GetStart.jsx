@@ -24,7 +24,7 @@ export const GetStart = () => {
             <div className="size-[29px] bg-accent rounded-full"></div>
             <div className="size-[29px] bg-accent rounded-full"></div>
           </div>
-          <div className="flex flex-col md:flex-row space-y-4 md:gap-4 lg:gap-[68px]">
+          <div className="flex flex-col md:flex-row  md:gap-4 lg:gap-[68px]">
             {getData.map((props,i)=>(
               <GetCard key={i} {...props}/>
             ))}

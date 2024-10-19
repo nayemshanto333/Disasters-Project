@@ -2,7 +2,7 @@ import React from "react";
 
 export function ActivitysCard({ img, name, location, date, price }) {
   return (
-    <div className="bg-[#F4F4F5] w-[679px] h-[108px] rounded-[10px] py-[15px] px-2.5 gap-[17px] flex items-center my-[15px]">
+    <div className="bg-[#F4F4F5] w-[679px] h-[108px] rounded-[10px] py-[15px] px-2.5 gap-[17px] flex items-center my-[15px] hover:scale-105 transition-all duration-150 cursor-pointer">
       <img src={img} alt="image" />
       <div className="py-[22px]">
         <h5 className="text-sm sm:text-base font-bold text-primary">{name}</h5>

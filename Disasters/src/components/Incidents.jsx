@@ -35,7 +35,7 @@ export const Incidents = () => {
         </Container>
       </div>
       <Container>
-        <AllCards className="pt-16" />
+        <AllCards  />
       </Container>
     </section>
   );

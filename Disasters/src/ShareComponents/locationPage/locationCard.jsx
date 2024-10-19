@@ -2,7 +2,7 @@ import React from "react";
 
 export const LocationCard = ({img,title,location,price }) => {
   return (
-    <div className="w-[214.2px] rounded-[7px]   relative">
+    <div className="w-[214.2px] rounded-[7px] hover:scale-105 transition-all duration-150   relative">
       <div>
         <img className="w-full h-[177.1px]" src={img} alt={title} />
       </div>

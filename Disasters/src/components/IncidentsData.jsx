@@ -36,7 +36,7 @@ const IncidentsData = () => {
               </Button>
               {/* Next Button */}
               <Button className=" w-[139px]">
-                <Link to="/get-start">Next step</Link>
+                <Link to="/finished">Next step</Link>
               </Button>
             </div>
           </div>
@@ -47,13 +47,13 @@ const IncidentsData = () => {
           <h2 className="text-primary text-base sm:text-lg lg:text-2xl font-bold leading-[30.6px]">
             Which of these best describes the incident?
           </h2>
-          <p className='text-xs sm:text-sm text-secondary leading-[22px] mt-3'>Make a title that will easily identify the incidents</p>
-          <input type="text" placeholder='Add title here' className='text-xs text-secondary my-6 w-full h-[50px] border-accent bg-[#F4F4F5] rounded-[6px] py-3 px-2.5 gap-[5px]' />
-          <h2 className="text-primary text-base sm:text-lg lg:text-2xl font-bold leading-[30.6px]">
+          <p className=' text-[10px] text-sm sm:text-sm  w-[340px] sm:w-[600px] md:w-[752px] text-secondary leading-[22px] mt-3'>Make a title that will easily identify the incidents</p>
+          <input type="text" placeholder='Add title here' className='text-xs text-secondary my-6 w-[340px] sm:w-[600px] md:w-[752px] h-[50px] border-accent bg-[#F4F4F5] rounded-[6px] py-3 px-2.5 gap-[5px]' />
+          <h2 className="text-primary  text-sm  sm:text-lg lg:text-2xl font-bold leading-[30.6px]">
           Describe what happened during the incident?
           </h2>
-          <p className='text-xs sm:text-sm text-secondary leading-[22px] mt-3'>Share some information about the incident. The when, where, how. </p>
-          <textarea type="text" placeholder='Add title here' className='text-xs text-secondary my-6 w-full h-[127px] border-accent bg-[#F4F4F5] rounded-[6px] py-5 px-2.5 gap-[5px]' />
+          <p className='text-xs  w-[340px] sm:w-[600px] md:w-[752px] text-[10px]  sm:text-sm text-secondary leading-[22px] mt-3'>Share some information about the incident. The when, where, how. </p>
+          <textarea type="text" placeholder='Add title here' className='text-xs text-secondary my-6  w-[340px] sm:w-[600px] md:w-[752px] h-[127px] border-accent bg-[#F4F4F5] rounded-[6px] py-5 px-2.5 gap-[5px]' />
         </div>
       </Container>
     </section>
