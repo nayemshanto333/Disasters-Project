@@ -6,6 +6,7 @@ import { Incidents } from './components/Incidents'
 import { GetStart } from './components/GetStart'
 import { Location } from './components/Location'
 import Describes from './components/Describes'
+import IncidentsData from './components/IncidentsData'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Incidents' element={<Incidents/>}/>
         <Route path='/get-start' element={<GetStart/>}/>
         <Route path='/describes' element={<Describes/>}/>
+        <Route path='/incidentsData' element={<IncidentsData/>}/>
         <Route path='/Locations' element={<Location/>}/>
         
         
